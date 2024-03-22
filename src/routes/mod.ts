@@ -1,8 +1,8 @@
 import { Router } from "express";
-import gpt from "./gpt.ts";
+import start from "./index.ts";
 
 const router = new Router()
 
-router.use(gpt)
+router.use(start)
 
 export default router;
